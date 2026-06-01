@@ -191,3 +191,28 @@ Ejemplo:
 
 - ligas internas
 [Acerca del alumno](./aboutme.md "conoceme mas")
+
+
+### 9. Imagenes
+El estandar de markdown nos permite incrustar imagenes dentro de nuestra documentacion lo que nos permitira poner logotipos, capturas de pantalla o cualquier archivo grafico importante
+
+
+La estructura varia un poco de las referencias de hipervinculos, siendo:
+```
+![Dojocat](url a donde se encuentra la imagen)
+```
+
+Ejemplo:
+![Peru](./Imagenes/peru.jpg)
+
+Es importante comprender que la resolucion de la imagen sera la original del archivo
+
+**Tip pro:**
+Si el tamaño de la imagen no se ajusta a lo que deseas para tu documento, lo mas recomendable es ajustar el tamaño del archivo original con algun software procesador de imagenes como: Paint, Illustrator, Ink o Photoshop, pero si quiere modificarlo desde el estandar no tiene parametros por lo que necesitaremos echar lineas de codigo HTML
+
+Cambiando la estructura de maquetado por la etiqueta ``` <img> ```
+
+ejemplo:
+
+<img src="./Imagenes/peru.jpg" width="100" heigth="50">
+
